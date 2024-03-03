@@ -1,0 +1,27 @@
+package com.mycompany.asdno4;
+
+import java.util.ArrayList;
+
+public class Asdno4 {
+
+    public static void main(String[] args) {
+        // Membuat ArrayList dengan tipe data wrapper Integer
+        ArrayList<Integer> dataList = new ArrayList<>();
+
+        // Memberikan nilai ke ArrayList
+        dataList.add(8);
+        dataList.add(15);
+        dataList.add(23);
+        dataList.add(32);
+        dataList.add(45);
+
+        // Mencetak isi ArrayList
+        System.out.println("Isi ArrayList:");
+
+        for (int i = 0; i < dataList.size(); i++) {
+            System.out.println("Index " + i + ": " + dataList.get(i));
+        }
+    }
+}
+
+    
