@@ -1,0 +1,44 @@
+
+package com.mycompany.asd5;
+
+import java.util.ArrayList;
+
+public class Asd5 {
+
+    public static void main(String[] args) {
+        // Membuat ArrayList dengan tipe data wrapper Integer
+        ArrayList<Integer> angkaList = new ArrayList<>();
+
+        // Menambahkan nilai ke ArrayList
+        angkaList.add(5);
+        angkaList.add(10);
+        angkaList.add(15);
+        angkaList.add(20);
+        angkaList.add(25);
+
+        // Mencetak isi ArrayList
+        System.out.println("Isi ArrayList setelah penambahan nilai:");
+        System.out.println(angkaList);
+
+        // Mengakses nilai pada index tertentu
+        int nilaiIndex2 = angkaList.get(2);
+        System.out.println("\nNilai pada index 2: " + nilaiIndex2);
+
+        // Mengganti nilai pada index tertentu
+        angkaList.set(3, 30);
+        System.out.println("\nIsi ArrayList setelah mengganti nilai pada index 3:");
+        System.out.println(angkaList);
+
+        // Menghapus nilai pada index tertentu
+        angkaList.remove(1);
+        System.out.println("\nIsi ArrayList setelah menghapus nilai pada index 1:");
+        System.out.println(angkaList);
+
+        // Membaca ukuran ArrayList
+        int ukuranArrayList = angkaList.size();
+        System.out.println("\nUkuran ArrayList saat ini: " + ukuranArrayList);
+    }
+}
+
+    
+
