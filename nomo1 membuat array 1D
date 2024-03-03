@@ -1,0 +1,57 @@
+package com.mycompany.asd;
+
+public class Asd {
+
+    public static void main(String[] args) {
+        // membuat  array 1 D dengan 8 tipe data primitif
+        int[] intArray = {1, 2, 3, 4, 5};
+        double[] doubleArray = {1.1, 2.2, 3.3, 4.4, 5.5};
+        float[] floatArray = {1.1f, 2.2f, 3.3f, 4.4f, 5.5f};
+        char[] charArray = {'a', 'n', 'd', 'r', 'i', 'a', 'n', 'i'};
+        boolean[] booleanArray = {true, false, true, false, true};
+        byte[] byteArray = {1, 2, 3, 4, 5};
+        short[] shortArray = {10, 20, 30, 40, 50};
+        long[] longArray = {10000L, 20000L, 30000L, 40000L, 50000L};
+
+        // Menampilkan nilai array
+        System.out.println("Array intArray:");
+        for (int i : intArray) {
+            System.out.print(i + " ");
+        }
+
+        System.out.println("\nArray doubleArray:");
+        for (double d : doubleArray) {
+            System.out.print(d + " ");
+        }
+
+        System.out.println("\nArray floatArray:");
+        for (float f : floatArray) {
+            System.out.print(f + " ");
+        }
+
+        System.out.println("\nArray charArray:");
+        for (char c : charArray) {
+            System.out.print(c + " ");
+        }
+
+        System.out.println("\nArray booleanArray:");
+        for (boolean b : booleanArray) {
+            System.out.print(b + " ");
+        }
+
+        System.out.println("\nArray byteArray:");
+        for (byte b : byteArray) {
+            System.out.print(b + " ");
+        }
+
+        System.out.println("\nArray shortArray:");
+        for (short s : shortArray) {
+            System.out.print(s + " ");
+        }
+
+        System.out.println("\nArray longArray:");
+        for (long l : longArray) {
+            System.out.print(l + " ");
+        }
+    }
+}
